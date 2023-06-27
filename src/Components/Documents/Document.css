@@ -1,0 +1,33 @@
+.document{
+    width: 1100px;
+    display: flex;flex-direction: column;
+    margin-left: 100px;
+}
+.form7{
+    width: 100%;
+    background-color: rgb(95, 95, 255);
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+}
+.parents{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between ;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+@media screen  and (max-width:900px){
+    .document{
+        width: 100%;
+        margin-left: 0;
+    }
+    .form7{
+        height  : 470px;
+        gap: 0.5rem;
+
+    }
+}

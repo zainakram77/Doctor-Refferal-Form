@@ -1,0 +1,72 @@
+
+
+.navbar{
+  /* margin: 0 5rem; */
+    width: 100%;
+  
+    background-color: rgb(65, 65, 153);
+     /* position: fixed; */
+}
+.items{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menuButton {
+  display: none; /* Initially hide the menu button */
+}
+.logo{
+    margin-left: 7rem;
+}
+.download{
+    margin-right: 7rem;
+    color: white;
+}
+.links{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(57, 57, 141);
+}
+.linkItems{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 765px) {
+  .linkItems{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .menuButton {
+    display: block; /* Show the menu button */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .open{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    height: 200px;
+  background-color: rgb(57, 57, 141);
+  
+  
+  }
+ 
+
+
+}

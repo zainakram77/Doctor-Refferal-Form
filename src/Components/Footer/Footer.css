@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+
+    background-color: rgb(65, 65, 153);
+    position: sticky;
+}
+
+.btn2 {
+    margin-right: 7rem;
+    color: white;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(39, 39, 112);
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

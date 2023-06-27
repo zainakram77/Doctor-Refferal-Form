@@ -1,0 +1,65 @@
+.items1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .oral>label:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  .endo>label:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pedo>label:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .items2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .perio>label:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .other>label:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .form3{
+    width: 100%;
+    background-color: rgb(95, 95, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 440px;
+    margin-top: 3rem;
+    color: white;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+}
+.oral{
+  margin-left: 1rem;
+}
+.other{
+  margin-left: 1rem;
+}
+.endo{
+  margin-left: 1rem;
+
+}
+.pedo{
+  margin-left: 1rem;
+}
+.perio{
+  margin-left: 1rem;
+}

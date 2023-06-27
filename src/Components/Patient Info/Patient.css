@@ -1,0 +1,265 @@
+.heading{
+    color: white;
+    width: 100%;
+     margin-top: 3rem;
+     margin-left: 1rem;
+     margin-bottom: 2rem;
+
+}
+.main{
+    width: 1100px;
+      display: flex;flex-direction: column;
+      margin-left: 100px;
+
+}
+.heading2{
+    color: white;
+    width: 100%;
+    height:70px;
+    background-color: rgb(39, 39, 112);
+    display: flex;
+    align-items: center;
+}
+.heading2>span{
+    margin-left: 1rem;
+}
+.form{
+    width: 100%;
+    background-color: rgb(95, 95, 255);
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.dob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.parents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.Paddress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.call1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.call2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 1rem;
+
+    margin-top: 1rem;
+}
+.input{
+    display: flex;
+    gap: 0.5rem;
+    border: none;
+    outline: none;
+      flex-direction: row;
+      margin-left: 280px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 1rem;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    color: white;
+background-color: #272770;
+width: 60px;
+height: 40px;
+cursor: pointer;
+
+}
+.a1{
+    border: none;
+   outline: none;
+   width: 723px;
+   margin-right: 1rem;
+   height: 30px;
+}
+.e1{
+    border: none;
+    outline: none;
+    width: 723px;
+    margin-right: 1rem;
+   height: 30px;
+}
+.ph1{
+    border: none;
+    outline: none;
+    width: 349px;
+    margin-right: 1rem;
+   height: 30px;
+}
+.d1{
+    border: none;
+    outline: none;
+    width: 723px;
+    margin-right: 1rem;
+   height: 30px;
+}
+.n1{
+    width: 350px;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+   height: 30px;
+}
+.p1{
+    border: none;
+    outline: none;
+    width: 723px;
+    margin-right: 1rem;
+   height: 30px;
+}
+.line{
+   width: 1065px;
+   height: 1px;
+   background-color: white;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+@media screen  and (max-width:900px){
+    .main{
+        width: 100%;
+        margin-left: 0;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .phone{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .dob{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .parents{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+        margin-right: 2rem;
+        
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Paddress{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .form{
+        height: 780px;
+    }
+    .line{
+        width: 100%;
+
+    }
+    .n1{
+        width: 100%;
+        margin-right: 2rem !important;
+    }
+    .ph1{
+        width: 100%;
+    }
+
+    .e1{
+        width: 100%;
+    }
+    .a1{
+        width: 100%;
+    }
+    .p1{
+
+        width: 100%;
+    }
+    .d1{
+        width: 100%;
+    }
+}

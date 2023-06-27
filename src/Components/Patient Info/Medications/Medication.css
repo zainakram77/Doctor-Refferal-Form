@@ -1,0 +1,33 @@
+.medication{
+    width: 1100px;
+    display: flex;flex-direction: column;
+    margin-left: 100px;
+}
+.form6{
+    width: 100%;
+    background-color: #5f5fff;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+}
+@media screen  and (max-width:900px){
+    .medication{
+        width: 100%;
+        margin-left: 0;
+    }
+    .form6{
+        height: 300px;
+    }
+}
+.button.clicked{
+    background-color: #000000;
+}
+button.clicked1{
+    background-color: #000000;
+}
+button.clicked2{
+    background-color: #000000;
+}
+button.clicked3{
+    background-color: #000000;
+}

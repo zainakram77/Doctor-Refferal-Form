@@ -1,0 +1,256 @@
+.pdf{
+    width: 1000px;
+    height: 1500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    
+}
+.pdfheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 950px;
+    height: 100px;
+    background-color:#f7edf0;
+    border:  2px solid palevioletred;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.text>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pdfPatient{
+    margin-top: 2rem;
+   margin-left: 1rem;
+}
+
+.header3{
+    /* position: absolute; */
+    width: 250px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header3>span{
+    font-weight: bold;
+}
+.pdfForm{
+    width: 950px;
+    height: 100px;
+    background-color:#f7edf0;
+   border: 2px solid palevioletred;
+}
+.pdfForm>input{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.check>input{
+    border: none;
+    outline: none;
+  
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.pdfForm>label{
+    font-size: 13px;
+}
+#g1{
+    width: 795px;
+}
+#a1{
+    width: 223px;
+}
+.check{
+    font-size: 13px;
+
+}
+.pdfInsurance{
+    
+    margin-left: 1rem;
+}
+#i1{
+    width: 740px;
+}
+#i2{
+    width: 256px;
+}
+#i3{
+    width: 383px;
+}
+.pdfReffer{
+
+    margin-left: 1rem;
+}
+#r1{
+    width: 500px;
+}
+#r2{
+    width: 250px;
+}
+#r3{
+    width: 350px;
+}
+#r4{
+    width: 520px;
+}
+.pdfForm2{
+    width: 950px;
+    height: 70px;
+    background-color:#f7edf0;
+   border: 2px solid palevioletred;
+}
+.pdfForm2>input{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.pdfForm2>label{
+    font-size: 13px;
+}
+.pdfReason{
+
+    margin-left: 1rem;
+}.pdfForm3{
+    width: 950px;
+    height: 250px;
+    background-color:#f7edf0;
+   border: 2px solid palevioletred;
+   display: flex;
+   justify-content: space-evenly;
+}
+.oral{
+    font-size: 13px;
+}
+.endol{
+    font-size: 13px;
+}
+.perio{
+    font-size: 13px;
+}
+.other{
+    font-size: 13px;
+}
+.pedo{
+    font-size: 13px;
+}
+.pdfExtraction{
+    
+    margin-left: 1rem;
+}
+.above{
+    display: flex;
+    flex-direction: row;
+  }
+  .t{
+    display: flex;
+    flex-direction: column;
+  }
+  .below{
+    display: flex;
+    flex-direction: row;
+  }
+  .t>label{
+    margin-left: 1rem;
+  }
+ 
+  .t>input{
+    filter: grayscale(100%);
+        
+  }
+
+  .t1>label{
+    margin-left: 1rem;
+  }
+  .t1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .above1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    
+   }
+   .below1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+   }
+   .teeths2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    transform: scale(0.7);
+}
+.teeths1{
+    transform: scale(0.7);
+}
+.pdfForm4{
+    width: 950px;
+    height: 260px;
+    /* background-color:#f7edf0;
+   border: 2px solid palevioletred; */
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.pdfSpecial{
+    
+    margin-left: 1rem;
+}
+.pdfForm5{
+    width: 950px;
+    height: 110px;
+     background-color:#f7edf0;
+    border: 2px solid palevioletred; 
+}
+#s1{
+    width: 940px;
+    height: 100px;
+  margin-top: 5px;
+  /* margin-left: 75px; */
+}
+.pdfMedications{
+
+    margin-left: 1rem;
+}
+#l1{
+    width: 900px;
+}
+#l2{
+    width: 900px;
+}
+.pdfInstruc{
+    margin-left: 1rem;
+
+}
+.pdfForm7{
+    width: 950px;
+    height: 150px;
+     background-color:#f7edf0;
+    border: 2px solid palevioletred; 
+}
+.pdfForm7>ul>li{
+    font-size: 13px;
+}
+
