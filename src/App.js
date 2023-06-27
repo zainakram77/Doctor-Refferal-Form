@@ -39,7 +39,7 @@ function App() {
        <PatientInstruction/>
        <Footer/> 
        <Pdf />
-      
+           
     </div>
   );
 }

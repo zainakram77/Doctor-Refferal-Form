@@ -419,7 +419,7 @@ const Pdf = (formData) => {
                         </div>
                     </div>
                     <div className='teeths1'>
-          <div className="above1">
+          <div className="above1"> 
                             <div className="t">
                                 <img src={A} alt="" />
                                 <input type="checkbox" name="" id="" />
