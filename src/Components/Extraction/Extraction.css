@@ -11,16 +11,24 @@
     justify-content: center;
     margin-top: 3rem;
 }
+.teeths1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
 .form4{
     width: 100%;
     background-color: rgb(95, 95, 255);
     display: flex; 
     flex-direction: column;
-    height: 760px;
+    height: 600px;
 }
 .above{
     display: flex;
     flex-direction: row;
+    gap: 0.3rem;
   }
   .t{
     display: flex;
@@ -38,6 +46,14 @@
     filter: grayscale(100%);
         
   }
+  .t1>input{
+    filter: grayscale(100%);
+        
+  }
+  #teethCheckbox:checked ~ img {
+    filter: grayscale(100%);
+}
+
 
   .t1>label{
     margin-left: 1rem;
@@ -52,6 +68,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
+    gap: 0.6rem;
     
    }
    .below1{
@@ -59,7 +76,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
    }
    @media screen  and (max-width:900px){
     .extraction{
